@@ -191,3 +191,34 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+/* CSS code for the under construction note */
+@keyframes floatingAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
+.under-construction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.under-construction {
+    background-color: #73A9AD;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 18px;
+    border: 2px solid #09565c;
+    width: 250px;
+    position: relative;
+    animation: floatingAnimation 2s ease-in-out infinite;
+}
+
+.under-construction p {
+    margin: 0;
+}
