@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Caprasimo', cursive;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .navbar {
-    background: #73A9AD;
+    background: #b471a0;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 #navbar__logo {
-    background-color: #F5F0BB; /* Off-white creamy color */
+    background-color: #5c093c; /* Off-white creamy color */
     background-image: none; /* Remove the background image */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -77,23 +77,23 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     height: 100%;
     width: 100%;
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #DBDFAA;
+    background: #dea9cb;
     color: #fff
 }
 
 .button:hover {
-    background: #B3C890;
+    background: #8c1d63;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #B3C890;
+    color: #8c1d63;
     transition: all 0.3s ease;
 }
 
@@ -122,7 +122,7 @@
     }
 
     .navbar__menu.active {
-        background: #73A9AD;
+        background: #8c1d63;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -207,13 +207,13 @@
 }
 
 .under-construction {
-    background-color: #73A9AD;
+    background-color: #b471a0;
     color: #333;
     padding: 15px;
     text-align: center;
     font-family: 'Comic Sans MS', cursive;
     font-size: 18px;
-    border: 2px solid #09565c;
+    border: 2px solid #5c093c;
     width: 250px;
     position: relative;
     animation: floatingAnimation 2s ease-in-out infinite;
