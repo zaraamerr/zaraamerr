@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hey there, my name is Zara Amer and I am a Fullstack Software Engineer in progress.<br>I'm currently learning the MERN stack by building applications like a food blog app called Nibble.io.
+Hey there, my name is Zara Amer and I am a Fullstack Software Engineer in progress.<br>I'm currently learning the MERN stack by building applications like my own blog site.
 
 
 ## 🌐 Socials:
